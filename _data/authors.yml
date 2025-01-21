@@ -9,6 +9,6 @@ phlow: # replace this with your info
   name: "shbhattarai"
   siterole: "site owner"
   uri: http://shbhattarai.github.io
-  email:"srbhattarai13@gmail.com"
+  email:
   twitter: "@bhattaraisr"
 # you can add more authors here
