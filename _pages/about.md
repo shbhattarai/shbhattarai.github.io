@@ -20,10 +20,10 @@ profile:
 #   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
 #   limit: 5 # leave blank to include all the news in the `_news` folder
 
-# latest_posts:
-#   enabled: true
-#   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-#   limit: 3 # leave blank to include all the blog posts
-# ---
+latest_posts:
+  enabled: true
+  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  limit: 3 # leave blank to include all the blog posts
+---
 I am Shreeram Bhattarai, a keen science lover especially quantuam computation. I am very curious person, and want to know the what's out there. Nowadays, I am investing my most of time into Quantuam Computation. I want to know and want to understand it in more depth. 
 
