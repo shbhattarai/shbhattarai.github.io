@@ -3,7 +3,7 @@ layout: post
 title: Exploring self
 date: 2025-03-05 10:50:10
 description: first post for exploring self
-tags: self exploration
+tags: [selfexploration, firstpost]
 categories: selfexploration
 ---
 
