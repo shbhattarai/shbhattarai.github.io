@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Hamburg, Germany
+subtitle:  Hamburg, Germany
 
 profile:
   align: right
