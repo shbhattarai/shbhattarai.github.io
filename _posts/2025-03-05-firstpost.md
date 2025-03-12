@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Exploring self
+title: Chasing the Unknown - A Journey of Curiosity
 date: 2025-03-05 10:50:10
-description: Chasing the Unknown: A Journey of Curiosity
+# description: Chasing the Unknown - A Journey of Curiosity
 tags: [selfexploration, curiosity]
 categories: selfexploration
 ---
