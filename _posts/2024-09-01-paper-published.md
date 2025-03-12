@@ -20,7 +20,6 @@ If you're curious about how this could change fiber-optic sensing or just want t
 </a>
 <hr>
 
-I am the kind of person who wants to know almost everything. I want to know mathematics, physics, computation, neuroscience, chemistry, biology, spirituality, and so on. I am not sure if my life length could be enough to do so.
 
 
 
