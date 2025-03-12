@@ -44,15 +44,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-exploring-self",
+        },{id: "post-",
       
-        title: "Exploring self",
+        title: "",
       
-      description: "first post for exploring self",
+      description: "",
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/selfexploration/2025/03/05/firstpost.html";
+          window.location.href = "/2025/03/12/2025-03-05-firstpost.html";
         
       },
     },{id: "post-paper-publication",
@@ -81,6 +81,11 @@ ninja.data = [{
           description: "with background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project.html";
+            },},{id: "projects-project-2",
+          title: 'project 2',
+          description: "with background image",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_project.html";
             },},{
         id: 'social-email',
         title: 'email',
