@@ -44,15 +44,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-",
+        },{id: "post-chasing-the-unknown-a-journey-of-curiosity",
       
-        title: "",
+        title: "Chasing the Unknown - A Journey of Curiosity",
       
       description: "",
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/2025/03/12/2025-03-05-firstpost.html";
+          window.location.href = "/selfexploration/2025/03/05/firstpost.html";
         
       },
     },{id: "post-paper-publication",
