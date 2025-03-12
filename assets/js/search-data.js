@@ -55,6 +55,17 @@ ninja.data = [{
           window.location.href = "/selfexploration/2025/03/05/firstpost.html";
         
       },
+    },{id: "post-paper-publication",
+      
+        title: "paper publication",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/paper/2024/09/01/paper-published.html";
+        
+      },
     },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
