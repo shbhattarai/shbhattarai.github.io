@@ -3,46 +3,46 @@ const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
 ninja.data = [{
-    id: "nav-about",
-    title: "about",
+    id: "nav-home",
+    title: "Home",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
   },{id: "nav-blog",
-          title: "blog",
+          title: "Blog",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/blog/";
           },
         },{id: "nav-publications",
-          title: "publications",
+          title: "Publications",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-projects",
-          title: "projects",
+        },{id: "nav-learning",
+          title: "Learning",
           description: "A growing collection of your cool projects.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/projects/";
+            window.location.href = "/learning/";
           },
-        },{id: "nav-self-study",
-          title: "self_study",
-          description: "List of the courses currently I am studying",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/self_study/";
-          },
-        },{id: "nav-cv",
-          title: "cv",
+        },{id: "nav-news",
+          title: "News",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/cv/";
+            window.location.href = "/news/";
+          },
+        },{id: "nav-cv-amp-biography",
+          title: "CV &amp; Biography",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cvbio/";
           },
         },{id: "post-chasing-the-unknown-a-journey-of-curiosity",
       
@@ -76,16 +76,6 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2.html";
-            },},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project.html";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project.html";
             },},{
         id: 'social-email',
         title: 'email',
