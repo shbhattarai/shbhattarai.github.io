@@ -2,16 +2,25 @@
 layout: post
 title: paper publication
 date: 2024-09-01 10:50:10
+thumbnail: /assets/img/publication_preview/fiber-optic-sensing.png
 # description: first post for exploring self
 tags: [paper, IEEE journal, machinelearning, deeplearning]
 categories: paper
 ---
 I'm excited to share a big milestone from my time as a Research Intern at the Max Planck Institute for Intelligent Systems in Tübingen! Our team has published a paper titled "Fiber-Optic Shape Sensing Using Neural Networks Operating on Multispecklegrams", and I couldn’t be more proud of what we achieved together.
 
-This research was all about pushing the boundaries of what’s possible with fiber-optic sensors. We found a way to use machine learning to transform regular, unmodified multimode fibers into shape sensors. This means we can detect the shape of the fiber without needing any complex modifications—no Bragg gratings or fancy setups. Instead, we used neural networks to analyze the speckle patterns in the fiber, and it turns out, it works really well!
-One of the coolest things about our approach is its ability to handle new shapes that weren’t part of the training data. We used computer vision techniques to get a precise understanding of the fiber's shape and then trained our models with data from multiple specklegrams per shape. This allows us to accurately predict even those tricky, multi-bend shapes. And the best part? We made our datasets publicly available, so others can build on what we started.
+![Fiber-Optic Shape Sensing Research](/assets/img/publication_preview/fiber-optic-sensing.png)
+*Visualization of our fiber-optic shape sensing approach using neural networks*
 
-A big shoutout to my amazing co-authors: Caroline G. L. Cao, Bernard Javot, Karin Bierig, Ivan Oreshnikov, and Valentin V. Volchkov—your expertise and collaboration made this journey a truly enriching experience!
+We know what really blew our minds during this project? We were working with these ordinary optical fibers that we might think couldn't do much more than carry light signals. But by applying some clever machine learning techniques, we turned them into these incredibly sensitive shape detectors. It was one of those "aha!" moments where we realize the potential hiding in something so simple.
+
+This research was all about pushing the boundaries of what's possible with fiber-optic sensors. We found a way to use machine learning to transform regular, unmodified multimode fibers into shape sensors. This means we can detect the shape of the fiber without needing any complex modifications—no Bragg gratings or fancy setups. Instead, we used neural networks to analyze the speckle patterns in the fiber, and it turns out, it works really well!
+
+One of the coolest things about our approach is its ability to handle new shapes that weren't part of the training data. We used computer vision techniques to get a precise understanding of the fiber's shape and then trained our models with data from multiple specklegrams per shape. This allows us to accurately predict even those tricky, multi-bend shapes. And the best part? We made our datasets publicly available, so others can build on what we started.
+
+Working on this project was honestly one of the most exciting parts of our internship. There were so many moments where we'd test something and just be amazed at how well it worked. The idea that we could take something as simple as an optical fiber and turn it into this sophisticated sensing device—it's the kind of breakthrough that makes us love being in research.
+
+A big shoutout to our amazing co-authors: Caroline G. L. Cao, Bernard Javot, Karin Bierig, Ivan Oreshnikov, and Valentin V. Volchkov—your expertise and collaboration made this journey a truly enriching experience!
 
 If you're curious about how this could change fiber-optic sensing or just want to chat about the research, feel free to reach out. I’d love to hear your thoughts!
 👉 

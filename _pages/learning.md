@@ -20,7 +20,7 @@ horizontal: false
   {% if category == "Studies" %}
   <p>This section showcases my academic studies and research projects in quantum information theory and related fields.</p>
   {% elsif category == "Projects" %}
-  <p>Here are my practical projects and implementations in software development and AI.</p>
+  <p>This section features my research and development projects in quantum computing, quantum information science, and quantum machine learning applications.</p>
   {% endif %}
   {% assign categorized_projects = site.projects | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}

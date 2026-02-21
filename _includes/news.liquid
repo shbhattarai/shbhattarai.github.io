@@ -19,7 +19,13 @@
             <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
             <td>
               {% if item.inline %}
-                {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+                {% assign content = item.content | remove: '<p>' | remove: '</p>' | emojify %}
+                {% assign words = content | number_of_words %}
+                {% if words > 20 %}
+                  {{ content | truncatewords: 20 | append: '...' }}
+                {% else %}
+                  {{ content }}
+                {% endif %}
               {% else %}
                 <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
               {% endif %}

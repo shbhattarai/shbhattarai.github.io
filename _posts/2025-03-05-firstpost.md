@@ -2,12 +2,17 @@
 layout: post
 title: Chasing the Unknown - A Journey of Curiosity
 date: 2025-03-05 10:50:10
+thumbnail: /assets/img/blog_curiosity_thumbnail.png
 # description: Chasing the Unknown - A Journey of Curiosity
 tags: [selfexploration, curiosity]
 categories: selfexploration
 ---
 
 It’s been a while, hasn’t it? I’ve been meaning to sit down and write this for some time now, mostly because I’ve been caught up in this endless loop of searching. I don’t even know how to explain it properly—I’m always on the lookout for something. Something more, something different, something beyond what I’ve got in front of me right now. It’s not that I hate what I’m doing or where I am. I actually enjoy a lot of it. But there’s this nagging feeling, this itch deep inside, that keeps whispering: Is this it? What’s out there? What am I really after?
+
+![Journey of Curiosity](/assets/img/blog_curiosity_thumbnail.png)
+*The endless path of curiosity and self-discovery*
+
 <hr>
 I’ve been asking myself some big questions lately. You know, the kind that hit you out of nowhere and don’t let go: What’s life all about? Who are we, really? What’s the point of being here? What am I doing with my days—and why? It’s like my mind’s turned into this buzzing little beehive of thoughts, and I can’t quite settle it down. I don’t have the answers yet (do any of us?), but I think that’s why I’m here, starting this site. It’s my way of exploring, of digging into myself and the world around me, one messy, curious step at a time.
 I’ve always been the kind of person who wants to know… well, pretty much everything. I mean, how do you pick just one thing when there’s so much out there calling your name? I want to wrap my head around mathematics and its elegant patterns, get lost in the wild mysteries of physics, tinker with computation until it makes sense. Then there’s neuroscience—how does our brain even work?—and chemistry, biology, spirituality… the list just keeps growing. Sometimes I wonder if a single lifetime is enough to chase all these threads. Probably not, but that’s not going to stop me from trying.

@@ -15,10 +15,10 @@ profile:
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
-# announcements:
-#   enabled: true # includes a list of news items
-#   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-#   limit: 5 # leave blank to include all the news in the `_news` folder
+announcements:
+  enabled: true # includes a list of news items
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: true
@@ -28,7 +28,7 @@ latest_posts:
 <hr>
 
 <div style="background-color: #f9f9f9; border-left: 4px solid #007acc; padding: 10px; margin: 15px 0;">
-<strong style="color: blue;">I am actively looking for a PhD position in quantum information and quantum machine learning.</strong>
+<strong style="color: blue;">actively looking for a phd / research project on Quantuam Machine learning / Quantum information Science / Quantum foundation from information perspective</strong>
 </div>
 
 <hr>

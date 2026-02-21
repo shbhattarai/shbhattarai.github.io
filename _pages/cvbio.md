@@ -73,7 +73,7 @@ nav_order: 7
   <div class="header">
     <div class="info">
       <p><strong>Name:</strong> Shreeram Bhattarai</p>
-      <p><strong>Marital status:</strong> unmarried, Soon to be married</p>
+      <p><strong>Marital status:</strong> married</p>
     </div>
     <img src="/assets/img/shreeram.jpg" alt="Shreeram">
   </div>

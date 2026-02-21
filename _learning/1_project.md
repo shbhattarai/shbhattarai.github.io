@@ -1,81 +1,96 @@
 ---
 layout: page
 title: Quantum Information Theory by Perimeter Institute
-description: with background image
+description: Comprehensive study of quantum information fundamentals and quantum computation principles
 img: assets/img/12.jpg
 importance: 1
 category: Studies
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Course Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This comprehensive study covers the fundamental principles of quantum information theory, focusing on how quantum mechanics can be harnessed for information processing and computation. The course explores the theoretical foundations that underpin quantum computing and quantum communication.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## Key Topics Covered
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+### Quantum Bits and Quantum States
+- Qubit representation and Bloch sphere
+- Superposition and measurement
+- Quantum state tomography
+- Density matrices and mixed states
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+### Quantum Entanglement
+- EPR paradox and Bell inequalities
+- Entanglement measures (concurrence, entanglement entropy)
+- Quantum teleportation protocols
+- Superdense coding
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+### Quantum Information Processing
+- Quantum gates and circuits
+- Universal gate sets
+- Quantum algorithms complexity
+- Error correction and fault tolerance
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+### Quantum Communication
+- Quantum key distribution (BB84 protocol)
+- Quantum repeaters
+- Quantum networks
+- Device-independent quantum cryptography
 
-{% raw %}
+## Theoretical Foundations
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+### No-Cloning Theorem
+The fundamental principle that quantum states cannot be perfectly copied, which has profound implications for quantum information processing and security.
 
-{% endraw %}
+### Quantum Uncertainty Principles
+Heisenberg's uncertainty principle and its generalizations in quantum information context.
+
+### Decoherence Theory
+Understanding how quantum systems interact with their environment and lose quantum properties.
+
+## Practical Applications
+
+### Quantum Computing
+- Shor's algorithm for factoring
+- Grover's search algorithm
+- Quantum simulation of physical systems
+
+### Quantum Cryptography
+- Unconditional security proofs
+- Quantum random number generation
+- Post-quantum cryptography
+
+## Research Components
+
+### Problem Sets and Exercises
+Worked through extensive problem sets covering:
+- Quantum circuit design
+- Entanglement quantification
+- Error correction codes
+- Cryptographic protocols
+
+### Research Projects
+- Implemented quantum algorithms in simulation
+- Analyzed quantum advantage in specific domains
+- Studied quantum error correction schemes
+
+## Learning Outcomes
+
+By the end of this study, I gained:
+- Deep understanding of quantum information principles
+- Ability to design basic quantum algorithms
+- Knowledge of quantum cryptography protocols
+- Appreciation for quantum computing challenges and opportunities
+
+## Resources and References
+
+- Nielsen & Chuang: "Quantum Computation and Quantum Information"
+- Perimeter Institute lecture notes
+- Qiskit documentation and tutorials
+- Research papers on quantum information theory
+
+This foundational knowledge serves as the basis for my subsequent work in quantum machine learning and quantum algorithms.
+
+{% cite nielsen2010quantum %}
+{% cite peres1993quantum %}
