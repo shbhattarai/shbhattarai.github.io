@@ -71,11 +71,61 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather.html";
-            },},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+            },},{id: "news-participated-in-the-quantum-computing-for-industry-vision-to-application-event-organized-by-physikalisch-technische-bundesanstalt-ptb-in-berlin-germany-an-in-person-event-exploring-industrial-applications-of-quantum-computing",
+          title: 'Participated in the Quantum Computing for Industry: Vision to Application event organized by...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2.html";
+          section: "News",},{id: "news-attended-the-quantum-carla-the-quantum-careers-symposium-organized-by-barcelona-institute-of-science-and-technology-at-icfo-carla-barcelona-spain-a-hybrid-event-focusing-on-career-development-in-quantum-technologies",
+          title: 'Attended the Quantum CARLA: the Quantum Careers Symposium organized by Barcelona Institute of...',
+          description: "",
+          section: "News",},{id: "news-participated-in-qnickel20-a-comprehensive-quantum-computing-and-programming-workshop-organized-by-qitaly-held-in-cagliari-ca-italy-as-a-hybrid-event-combining-in-person-and-virtual-participation",
+          title: 'Participated in QNickel20, a comprehensive quantum computing and programming workshop organized by QItaly....',
+          description: "",
+          section: "News",},{id: "news-participated-in-the-bluequbit-quantum-hackathon-focusing-on-peaked-circuits-challenge-an-intensive-online-event-exploring-quantum-circuit-optimization-and-practical-quantum-computing-applications",
+          title: 'Participated in the BlueQubit Quantum Hackathon focusing on Peaked Circuits Challenge. An intensive...',
+          description: "",
+          section: "News",},{id: "news-attended-the-quantum-machine-learning-workshop-organized-by-qpoland-amp-amp-fundacja-quantum-ai-explored-cutting-edge-developments-in-quantum-machine-learning-algorithms-and-their-practical-applications",
+          title: 'Attended the Quantum Machine Learning Workshop organized by QPoland &amp;amp;amp; Fundacja Quantum AI....',
+          description: "",
+          section: "News",},{id: "projects-the-next-leap-neural-enhanced-quantum-algorithms",
+          title: 'The Next Leap: Neural-Enhanced Quantum Algorithms',
+          description: "Instead of waiting for perfect quantum computers, we are using neural networks to do the heavy lifting now.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/1_project.html";
+            },},{id: "projects-quantum-information",
+          title: 'Quantum Information',
+          description: "Advanced course on quantum information processing, entanglement, quantum error correction, and quantum algorithms.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_project.html";
+            },},{id: "projects-information-theoretic-foundations-of-quantum-mechanics-and-the-emergence-of-physical-reality",
+          title: 'Information-Theoretic Foundations of Quantum Mechanics and the Emergence of Physical Reality',
+          description: "This research investigates whether quantum mechanics can be derived from information-theoretic or operational principles, focusing on the role of observers, entanglement, and quantum correlations in defining physical reality.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_project.html";
+            },},{id: "projects-quantum-foundations",
+          title: 'Quantum Foundations',
+          description: "Mathematical foundations of quantum mechanics, covering quantum states, measurements, superposition, and entanglement.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_project.html";
+            },},{id: "projects-information-science",
+          title: 'Information Science',
+          description: "Study of information processing, data structures, algorithms, and communication systems.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/6_project.html";
+            },},{id: "projects-quantum-machine-learning",
+          title: 'Quantum Machine Learning',
+          description: "Integration of quantum computing with machine learning algorithms and data processing techniques.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/7_project.html";
+            },},{id: "projects-project-8",
+          title: 'project 8',
+          description: "an other project with a background image and giscus comments",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/8_project.html";
+            },},{id: "projects-project-9",
+          title: 'project 9',
+          description: "another project with an image 🎉",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/9_project.html";
             },},{
         id: 'social-email',
         title: 'email',
