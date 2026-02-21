@@ -1,0 +1,31 @@
+<div class="news">
+  {% if site.news != blank %}
+    {% assign news = site.news | reverse %}
+    {% for item in news %}
+      <div class="news-item" style="margin-bottom: 30px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+        <h4 style="margin-bottom: 10px;">
+          {% if item.title contains '[' and item.title contains ']' %}
+            {% assign title_parts = item.title | split: '](' %}
+            {% if title_parts.size == 2 %}
+              {% assign link_text = title_parts[0] | remove_first: '[' %}
+              {% assign link_url = title_parts[1] | remove_last: ')' %}
+              <a href="{{ link_url }}" target="_blank" rel="noopener">{{ link_text }}</a>
+            {% else %}
+              {{ item.title | markdownify | remove: '<p>' | remove: '</p>' }}
+            {% endif %}
+          {% else %}
+            {{ item.title }}
+          {% endif %}
+        </h4>
+        <div class="news-date" style="color: #666; font-size: 0.9em; margin-bottom: 15px;">
+          {{ item.date | date: '%B %d, %Y' }}
+        </div>
+        <div class="news-content">
+          {{ item.content | emojify }}
+        </div>
+      </div>
+    {% endfor %}
+  {% else %}
+    <p>No news so far...</p>
+  {% endif %}
+</div>

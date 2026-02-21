@@ -7,4 +7,4 @@ nav_order: 6
 
 ---
 
-{% include news.liquid %}
+{% include news_full.liquid %}
