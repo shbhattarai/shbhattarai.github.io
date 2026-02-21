@@ -17,6 +17,11 @@ horizontal: false
   <a id="{{ category }}" href=".#{{ category }}">
     <h2 class="category">{{ category }}</h2>
   </a>
+  {% if category == "Studies" %}
+  <p>This section showcases my academic studies and research projects in quantum information theory and related fields.</p>
+  {% elsif category == "Projects" %}
+  <p>Here are my practical projects and implementations in software development and AI.</p>
+  {% endif %}
   {% assign categorized_projects = site.projects | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
   <!-- Generate cards for each project -->
