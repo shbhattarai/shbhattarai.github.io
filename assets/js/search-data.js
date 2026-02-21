@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cvbio/";
           },
-        },{id: "post-chasing-the-unknown-a-journey-of-curiosity",
+        },{id: "post-now-everything-finally-makes-sense",
+      
+        title: "Now, everything finally makes sense.",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/selfexploration/2026/02/21/now-everything-finally-makes-sense.html";
+        
+      },
+    },{id: "post-chasing-the-unknown-a-journey-of-curiosity",
       
         title: "Chasing the Unknown - A Journey of Curiosity",
       
@@ -85,6 +96,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-attended-the-quantum-machine-learning-workshop-organized-by-qpoland-amp-amp-fundacja-quantum-ai-explored-cutting-edge-developments-in-quantum-machine-learning-algorithms-and-their-practical-applications",
           title: 'Attended the Quantum Machine Learning Workshop organized by QPoland &amp;amp;amp; Fundacja Quantum AI....',
+          description: "",
+          section: "News",},{id: "news-attending-the-quantum-computing-and-programming-workshop-qsilver36-organized-by-qpoland-and-fundacja-quantum-ai-the-workshops-will-be-held-on-february-23-26-and-march-2-5-6",
+          title: 'Attending the Quantum Computing and Programming Workshop, QSilver36, organized by QPoland and Fundacja...',
           description: "",
           section: "News",},{id: "projects-the-next-leap-neural-enhanced-quantum-algorithms",
           title: 'The Next Leap: Neural-Enhanced Quantum Algorithms',
