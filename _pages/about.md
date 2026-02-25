@@ -28,10 +28,11 @@ latest_posts:
 <hr>
 
 <div style="background-color: #f9f9f9; border-left: 4px solid #007acc; padding: 10px; margin: 15px 0;">
-<strong style="color: blue;">actively looking for a phd / research project on Quantuam Machine learning / Quantum information Science / Quantum foundation from information perspective</strong>
+<strong style="color: blue;">Hi, I’m Shreeram — a researcher and machine learning practitioner based in Hamburg. I’m passionately exploring quantum machine learning, quantum information science, and foundational questions in quantum computing. I’m currently preparing for PhD opportunities where I can combine my ML background with quantum simulation and hybrid algorithms.</strong>
+<strong style="color: blue;">My research interests include neural quantum states, hybrid classical-quantum algorithms, and machine learning for complex physical systems. I’m especially interested in questions like how learning-based models can represent quantum many-body states and scale to realistic simulations.</strong>
 </div>
 
 <hr>
 
-For me, quantum computation is not just a passing interest—it’s something I’m determined to dig into and understand on a deeper level. Every day feels like a new chance to learn something amazing about it. I’ve been soaking up knowledge wherever I can find it: watching YouTube lectures (some of those professors explain things in ways that just click!), flipping through books that break down the complex stuff, and getting hands-on by learning quantum programming with the Qiskit framework. It’s challenging, sure, but that’s part of what makes it so fun—I’m piecing it together bit by bit, and I love seeing how it all connects.
+Quantum computation is not a passing interest for me. It’s something I’m seriously committing time and energy to understand properly. Over the past months, I’ve been building my foundation by studying quantum mechanics and quantum information from different sources, including lectures, books, and hands-on experiments with quantum programming frameworks such as Qiskit. It’s challenging and sometimes frustrating, but that’s exactly what makes it rewarding. I enjoy the process of slowly connecting the concepts and seeing how abstract ideas turn into things I can actually experiment with.
 
